@@ -12,21 +12,21 @@ const Accessories =()=>{
         <section className="py-16">
             <div className="container">
                 <div className="mb-5">
-                    <h2 className="text -3xl Font-bold">Shoes</h2>
+                    <h2 className="text-3xl font-bold">Shoes</h2>
                 </div>
-                <div className="grid grid-cols-9 gap-8">
+                <div className="grid grid-cols-3 gap-8">
                     <div className="">
                         <figure className="aspect-square rounded-xl overflow-hidden">
                             <img  className="w-full h-full object cover" src={Picture_1} alt="https://www.windsorstore.com/collections/accessories-jewelry-necklaces-chokers/products/all-in-the-shine-necklace-set-070020095903#from_smart_nav|0" />
                         </figure>
                         <div className="flex justify-between mt-4 items-centre">
                             <div className="">
-                                <h3 className="font-medium text-xl">All in the Shine Necklace</h3>
-                                <h4 className="font-bold text-3xl mt-2">R280.92</h4>
+                                <h3 className="font-medium text-xl mt-0">All in the Shine Necklace</h3>
+                                <h4 className="font-bold text-3xl mt-2">280.92 ZAR</h4>
 
                             </div>
                             <button className="bg-current px-4 rounded-lg aspect-square w-fit h-full">
-                                <span className="material-symbols-outlined">local_mall</span>
+                                <span className="material-symbols-outlined text-white">local_mall</span>
                             </button>
                         </div>
 
@@ -37,12 +37,12 @@ const Accessories =()=>{
                         </figure>
                         <div className="flex justify-between mt-4 items-centre">
                             <div className="">
-                                <h3 className="font-medium text-xl">Pearl Chocker Necklace</h3>
-                                <h4 className="font-bold text-3xl mt-2">R158.12</h4>
+                                <h3 className="font-medium text-xl mt-0">Pearl Chocker Necklace</h3>
+                                <h4 className="font-bold text-3xl mt-2">158.12 ZAR</h4>
 
                             </div>
                             <button className="bg-current px-4 rounded-lg aspect-square w-fit h-full">
-                                <span className="material-symbols-outlined">local_mall</span>
+                                <span className="material-symbols-outlined text-white">local_mall</span>
                             </button>
                         </div>
 
@@ -53,12 +53,12 @@ const Accessories =()=>{
                         </figure>
                         <div className="flex justify-between mt-4 items-centre">
                             <div className="">
-                                <h3 className="font-medium text-xl">Flower Chocker Necklace</h3>
-                                <h4 className="font-bold text-3xl mt-2">R176,19</h4>
+                                <h3 className="font-medium text-xl mt-0">Flower Chocker Necklace</h3>
+                                <h4 className="font-bold text-3xl mt-2">176,19 ZAR</h4>
 
                             </div>
                             <button className="bg-current px-4 rounded-lg aspect-square w-fit h-full">
-                                <span className="material-symbols-outlined">local_mall</span>
+                                <span className="material-symbols-outlined text-white">local_mall</span>
                             </button>
                         </div>
 
@@ -69,12 +69,12 @@ const Accessories =()=>{
                         </figure>
                         <div className="flex justify-between mt-4 items-centre">
                             <div className="">
-                                <h3 className="font-medium text-xl">Glam Rhinestone Necklace</h3>
-                                <h4 className="font-bold text-3xl mt-2">R315.76</h4>
+                                <h3 className="font-medium text-xl mt-0">Glam Rhinestone Necklace</h3>
+                                <h4 className="font-bold text-3xl mt-2">315.76 ZAR</h4>
 
                             </div>
                             <button className="bg-current px-4 rounded-lg aspect-square w-fit h-full">
-                                <span className="material-symbols-outlined">local_mall</span>
+                                <span className="material-symbols-outlined text-white">local_mall</span>
                             </button>
                         </div>
 
@@ -85,12 +85,12 @@ const Accessories =()=>{
                         </figure>
                         <div className="flex justify-between mt-4 items-centre">
                             <div className="">
-                                <h3 className="font-medium text-xl">Trim Mini Handbag</h3>
-                                <h4 className="font-bold text-3xl mt-2">R416.24</h4>
+                                <h3 className="font-medium text-xl mt-0">Trim Mini Handbag</h3>
+                                <h4 className="font-bold text-3xl mt-2">416.24 ZAR</h4>
 
                             </div>
                             <button className="bg-current px-4 rounded-lg aspect-square w-fit h-full">
-                                <span className="material-symbols-outlined">local_mall</span>
+                                <span className="material-symbols-outlined text-white">local_mall</span>
                             </button>
                         </div>
 
@@ -101,12 +101,12 @@ const Accessories =()=>{
                         </figure>
                         <div className="flex justify-between mt-4 items-centre">
                             <div className="">
-                                <h3 className="font-medium text-xl">Wing Rhinestone Butterfly Bag</h3>
-                                <h4 className="font-bold text-3xl mt-2">R706.60</h4>
+                                <h3 className="font-medium text-xl mt-0">Wing Rhinestone Butterfly Bag</h3>
+                                <h4 className="font-bold text-3xl mt-2">706.60 ZAR</h4>
 
                             </div>
                             <button className="bg-current px-4 rounded-lg aspect-square w-fit h-full">
-                                <span className="material-symbols-outlined">local_mall</span>
+                                <span className="material-symbols-outlined text-white">local_mall</span>
                             </button>
                         </div>
 
@@ -117,12 +117,12 @@ const Accessories =()=>{
                         </figure>
                         <div className="flex justify-between mt-4 items-centre">
                             <div className="">
-                                <h3 className="font-medium text-xl">Jelly Satchel Bag</h3>
-                                <h4 className="font-bold text-3xl mt-2">R297.44</h4>
+                                <h3 className="font-medium text-xl mt-0">Jelly Satchel Bag</h3>
+                                <h4 className="font-bold text-3xl mt-2">297.44 ZAR</h4>
 
                             </div>
                             <button className="bg-current px-4 rounded-lg aspect-square w-fit h-full">
-                                <span className="material-symbols-outlined">local_mall</span>
+                                <span className="material-symbols-outlined text-white">local_mall</span>
                             </button>
                         </div>
 
@@ -133,12 +133,12 @@ const Accessories =()=>{
                         </figure>
                         <div className="flex justify-between mt-4 items-centre">
                             <div className="">
-                                <h3 className="font-medium text-xl">Minnie Tote</h3>
-                                <h4 className="font-bold text-3xl mt-2">R382.05</h4>
+                                <h3 className="font-medium text-xl mt-0">Minnie Tote</h3>
+                                <h4 className="font-bold text-3xl mt-2">382.05 ZAR</h4>
 
                             </div>
                             <button className="bg-current px-4 rounded-lg aspect-square w-fit h-full">
-                                <span className="material-symbols-outlined">local_mall</span>
+                                <span className="material-symbols-outlined text-white">local_mall</span>
                             </button>
                         </div>
 
@@ -149,12 +149,12 @@ const Accessories =()=>{
                         </figure>
                         <div className="flex justify-between mt-4 items-centre">
                             <div className="">
-                                <h3 className="font-medium text-xl">Oversized Round Sunglasse </h3>
-                                <h4 className="font-bold text-3xl mt-2">R152.12</h4>
+                                <h3 className="font-medium text-xl mt-0">Oversized Round Sunglasse </h3>
+                                <h4 className="font-bold text-3xl mt-2">152.12 ZAR</h4>
 
                             </div>
                             <button className="bg-current px-4 rounded-lg aspect-square w-fit h-full">
-                                <span className="material-symbols-outlined">local_mall</span>
+                                <span className="material-symbols-outlined text-white">local_mall</span>
                             </button>
                         </div>
 
