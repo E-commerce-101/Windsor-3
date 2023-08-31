@@ -1,0 +1,32 @@
+import /css
+const contact=()=>{
+return(
+    <section class="Location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.7574380654687!2d28.185037200000004!3d-26.041491399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956c8b004f621f%3A0x824870b4690a794b!2s4143%20Try%20Again%20St%2C%20Choolorkop%2C%20Edenvale%2C%201624!5e0!3m2!1sen!2sza!4v1693515395976!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen=""loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <div class="Contact">
+        <form>
+            <fieldset>
+                <h3>CONTACT US</h3>
+                    Name:<br>
+                    <input type="text" name="name"><br>
+                    Surname:<br>
+                    <input type="text" name="surname"><br>
+                    Email:<spanclass="required">(Requred)</spanclass><br>
+                    <input type="email" name="email"><br>
+                    Contact No:<br>
+                    <input type="text" name="contact"><br>
+                    Query Type:<br>
+                    <select name="subject">
+                        <option value="choose">Select</option>
+                        <option value="choose">Our services</option>
+                        <option value="choose">Other related bussiness</option>
+                    </select><br>
+                    Message:<br>
+                    <textarea name="message" rows="10" cols="80" placeholder="Type your message here..."></textarea><br>
+                    <input type="submit" value="submit"/><br>
+            </fieldset>
+        </form>
+    </div>
+)
+}
